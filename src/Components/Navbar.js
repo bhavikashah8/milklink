@@ -35,10 +35,6 @@ const Navbar = () => {
       text: 'Contact',
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: 'Cart',
-      icon: <ShoppingCartRoundedIcon />,
-    },
   ];
   return (
     <nav>
@@ -50,9 +46,7 @@ const Navbar = () => {
         <a href="">About Us</a>
         <a href="">Explore More</a>
         <a href="">Contact Us</a>
-        {/* <button className="secondary-button">
-          Order Now <FiArrowRight />{' '}
-        </button> */}
+        <a href="">Register</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
